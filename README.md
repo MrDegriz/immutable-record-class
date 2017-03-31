@@ -1,7 +1,7 @@
 # immutable-record-class
 Typescript lib to create immutable.js record class with inheritance support
 
-`immutable-record-class` it is lib that combine power of [Typescript](https://github.com/Microsoft/TypeScript) interfaces with [Immutable.js Records](https://facebook.github.io/immutable-js/docs/#/Record) and and most important **support inheritance**.
+`immutable-record-class` it is lib that combine power of [Typescript](https://github.com/Microsoft/TypeScript) interfaces and [Immutable.js Records](https://facebook.github.io/immutable-js/docs/#/Record) and most important **support inheritance**.
  
 ## Table of Contents
  
