@@ -1,0 +1,46 @@
+{
+  "name": "immutable-record-class",
+  "version": "3.8.1",
+  "description": "JavaScript lib for create immutable.js record class with inheritance",
+  "main": "dist/immutable-record-class.js",
+  "typings": "dist/immutable-record-class.d.ts",
+  "typescript": {
+    "definition": "dist/immutable-record-class.d.ts"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "example": "ts-node examples/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDegriz/immutable-record-class.git"
+  },
+  "keywords": [
+    "typescript",
+    "immutable",
+    "record"
+  ],
+  "author": {
+    "name": "Egor Yurchenko",
+    "url": "https://github.com/MrDegriz"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrDegriz/immutable-record-class/issues"
+  },
+  "homepage": "https://github.com/MrDegriz/immutable-record-class#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "ts-node": "^3.0.2",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
+  },
+  "peerDependencies": {
+    "immutable": "^3.8.1"
+  }
+}
