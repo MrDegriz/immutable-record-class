@@ -1,7 +1,7 @@
 {
   "name": "immutable-record-class",
   "version": "3.8.1",
-  "description": "JavaScript lib for create immutable.js record class with inheritance",
+  "description": "Typescript lib to create immutable.js record class with inheritance support",
   "main": "dist/immutable-record-class.js",
   "typings": "dist/immutable-record-class.d.ts",
   "typescript": {
@@ -18,7 +18,8 @@
   "keywords": [
     "typescript",
     "immutable",
-    "record"
+    "record",
+    "inheritances"
   ],
   "author": {
     "name": "Egor Yurchenko",
